@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Formulário</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nome Completo</span>
+                    <input type="text" placeholder="Nome Completo" required>              
+                </div>
+                <div class="input-box">
+                    <span class="details">CPF</span>
+                    <input type="text" placeholder="CPF" required>              
+                </div>
+                <div class="input-box">
+                    <span class="details">Idade</span>
+                    <input type="number" placeholder="Idade" required>              
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Email" required>              
+                </div>
+                <div class="input-box">
+                    <span class="details">Endereço</span>
+                    <input type="text" placeholder="Endereço" required>              
+                </div>
+                <div class="input-box">
+                    <span class="details">Telefone</span>
+                    <input type="text" placeholder="Telefone" required>              
+                </div>
+                
+                <div class="race-details">
+                    <input type="radio" name="race" id="dot-1">
+                    <input type="radio" name="race" id="dot-2">
+                    <span class="race-title">Você tem interesse em cão ou gato?</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="race">Cão</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="race">Gato</span>
+                        </label>
+                    </div>              
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-3">
+                    <input type="radio" name="gender" id="dot-4">
+                    <input type="radio" name="gender" id="dot-5">
+                    <span class="gender-title">Tem preferência por sexo?</span>
+                    <div class="category">
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Macho</span>
+                        </label>
+                        <label for="dot-4">
+                            <span class="dot four"></span>
+                            <span class="gender">Fêmea</span>
+                        </label>
+                        <label for="dot-5">
+                            <span class="dot five"></span>
+                            <span class="gender">Ambos</span>
+                        </label>                        
+                </div>
+                <div class="Age-details">
+                    <input type="radio" name="Age" id="dot-6">
+                    <input type="radio" name="Age" id="dot-7">
+                    <input type="radio" name="Age" id="dot-8">
+                    <input type="radio" name="Age" id="dot-9">
+                    <span class="Age-title">Tem preferência por idade?</span>
+                    <div class="category">
+                        <label for="dot-6">
+                            <span class="dot six"></span>
+                            <span class="Age">Até 6 meses</span>
+                        </label>
+                        <label for="dot-7">
+                            <span class="dot seven"></span>
+                            <span class="Age">Até 1 ano</span>
+                        </label>
+                        <label for="dot-8">
+                            <span class="dot eight"></span>
+                            <span class="Age">Adulto</span>
+                        </label>
+                        <label for="dot-9">
+                            <span class="dot nine"></span>
+                            <span class="Age">Idoso</span>
+                        </label>                  
+                </div>
+                <div class="Def-details">
+                    <input type="radio" name="Def" id="dot-10">
+                    <input type="radio" name="Def" id="dot-11">
+                    <input type="radio" name="Def" id="dot-12">
+                    <span class="Def-title">Adotaria um cão ou gato deficiente?</span>
+                    <div class="category">
+                        <label for="dot-10">
+                            <span class="dot ten"></span>
+                            <span class="Def">Sim</span>
+                        </label>
+                        <label for="dot-11">
+                            <span class="dot eleven"></span>
+                            <span class="Def">Não</span>
+                        </label>
+                        <label for="dot-12">
+                            <span class="dot twelve"></span>
+                            <span class="Def">Depende da deficiência</span>
+                        </label>              
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
