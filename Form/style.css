@@ -9,8 +9,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: url(/Img/img-form4.jpg) no-repeat;
-    background-size: cover;
+    background: linear-gradient(135deg, #053b10, #26b48c);
 }
 .container{
     max-width: 700px;
